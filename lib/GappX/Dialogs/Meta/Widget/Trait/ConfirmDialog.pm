@@ -1,6 +1,6 @@
 package GappX::Dialogs::Meta::Widget::Trait::ConfirmDialog;
 {
-  $GappX::Dialogs::Meta::Widget::Trait::ConfirmDialog::VERSION = '0.001';
+  $GappX::Dialogs::Meta::Widget::Trait::ConfirmDialog::VERSION = '0.002';
 }
 
 use Moose::Role;
@@ -23,7 +23,7 @@ around BUILDARGS => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::ConfirmDialog;
 {
-  $Gapp::Meta::Widget::Custom::Trait::ConfirmDialog::VERSION = '0.001';
+  $Gapp::Meta::Widget::Custom::Trait::ConfirmDialog::VERSION = '0.002';
 }
 sub register_implementation { 'GappX::Dialogs::Meta::Widget::Trait::ConfirmDialog' };
 

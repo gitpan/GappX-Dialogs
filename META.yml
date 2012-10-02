@@ -14,4 +14,4 @@ meta-spec:
 name: GappX-Dialogs
 requires:
   Gapp: 0.46
-version: 0.001
+version: 0.002

@@ -1,6 +1,6 @@
 package GappX::Dialogs;
 {
-  $GappX::Dialogs::VERSION = '0.001';
+  $GappX::Dialogs::VERSION = '0.002';
 }
 
 use GappX::Dialogs::Meta::Widget::Trait::ConfirmDialog;
@@ -79,7 +79,7 @@ L<GappX::Dialogs::Meta::Widget::Trait::WarningDialog>
 =head1 SUPPORT
 
 Support for this module is provided via the gapp-list@chronosoft.ws email list.
-See L<http://gapp.chronosoft.ws/list> for details.
+See L<http://chronosoft.ws/gapp/list> for details.
 
 =head1 SEE ALSO
 
