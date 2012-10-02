@@ -1,0 +1,7 @@
+Changes for GappX::Dialogs
+
+{{$NEXT}}
+- Using Dist::Zilla
+
+0.01
+- Initial Release
