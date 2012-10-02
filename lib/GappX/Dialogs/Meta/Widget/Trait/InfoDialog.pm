@@ -1,6 +1,6 @@
 package GappX::Dialogs::Meta::Widget::Trait::InfoDialog;
 {
-  $GappX::Dialogs::Meta::Widget::Trait::InfoDialog::VERSION = '0.002';
+  $GappX::Dialogs::Meta::Widget::Trait::InfoDialog::VERSION = '0.003';
 }
 
 use Moose::Role;
@@ -22,7 +22,7 @@ around BUILDARGS => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::InfoDialog;
 {
-  $Gapp::Meta::Widget::Custom::Trait::InfoDialog::VERSION = '0.002';
+  $Gapp::Meta::Widget::Custom::Trait::InfoDialog::VERSION = '0.003';
 }
 sub register_implementation { 'GappX::Dialogs::Meta::Widget::Trait::InfoDialog' };
 

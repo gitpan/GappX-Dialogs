@@ -1,6 +1,6 @@
 package GappX::Dialogs::Meta::Widget::Trait::MessageDialog;
 {
-  $GappX::Dialogs::Meta::Widget::Trait::MessageDialog::VERSION = '0.002';
+  $GappX::Dialogs::Meta::Widget::Trait::MessageDialog::VERSION = '0.003';
 }
 
 use Moose::Role;
@@ -122,7 +122,7 @@ before 'run' => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::MessageDialog;
 {
-  $Gapp::Meta::Widget::Custom::Trait::MessageDialog::VERSION = '0.002';
+  $Gapp::Meta::Widget::Custom::Trait::MessageDialog::VERSION = '0.003';
 }
 sub register_implementation { 'GappX::Dialogs::Meta::Widget::Trait::MessageDialog' };
 

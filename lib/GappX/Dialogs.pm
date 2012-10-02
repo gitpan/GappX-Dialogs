@@ -1,6 +1,6 @@
 package GappX::Dialogs;
 {
-  $GappX::Dialogs::VERSION = '0.002';
+  $GappX::Dialogs::VERSION = '0.003';
 }
 
 use GappX::Dialogs::Meta::Widget::Trait::ConfirmDialog;
