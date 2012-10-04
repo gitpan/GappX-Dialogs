@@ -1,6 +1,6 @@
 package GappX::Dialogs::Meta::Widget::Trait::QuestionDialog;
 {
-  $GappX::Dialogs::Meta::Widget::Trait::QuestionDialog::VERSION = '0.003';
+  $GappX::Dialogs::Meta::Widget::Trait::QuestionDialog::VERSION = '0.004';
 }
 
 use Moose::Role;
@@ -21,7 +21,7 @@ around BUILDARGS => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::QuestionDialog;
 {
-  $Gapp::Meta::Widget::Custom::Trait::QuestionDialog::VERSION = '0.003';
+  $Gapp::Meta::Widget::Custom::Trait::QuestionDialog::VERSION = '0.004';
 }
 sub register_implementation { 'GappX::Dialogs::Meta::Widget::Trait::QuestionDialog' };
 

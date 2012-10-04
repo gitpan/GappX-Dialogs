@@ -1,6 +1,6 @@
 package GappX::Dialogs::Meta::Widget::Trait::MessageDialog;
 {
-  $GappX::Dialogs::Meta::Widget::Trait::MessageDialog::VERSION = '0.003';
+  $GappX::Dialogs::Meta::Widget::Trait::MessageDialog::VERSION = '0.004';
 }
 
 use Moose::Role;
@@ -24,7 +24,7 @@ has 'image' => (
     isa => GappDialogImage,
     default => sub {
         Gapp::Image->new(
-            stock => [ 'gtk-dialog-question', 'dialog' ],
+            stock => [ 'gtk-dialog-info', 'dialog' ],
             fill => 0,
             expand => 0,
         );
@@ -122,7 +122,7 @@ before 'run' => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::MessageDialog;
 {
-  $Gapp::Meta::Widget::Custom::Trait::MessageDialog::VERSION = '0.003';
+  $Gapp::Meta::Widget::Custom::Trait::MessageDialog::VERSION = '0.004';
 }
 sub register_implementation { 'GappX::Dialogs::Meta::Widget::Trait::MessageDialog' };
 
