@@ -1,6 +1,6 @@
 package GappX::Dialogs::Meta::Widget::Trait::WarningDialog;
 {
-  $GappX::Dialogs::Meta::Widget::Trait::WarningDialog::VERSION = '0.004';
+  $GappX::Dialogs::Meta::Widget::Trait::WarningDialog::VERSION = '0.005';
 }
 
 use Moose::Role;
@@ -22,7 +22,7 @@ around BUILDARGS => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::WarningDialog;
 {
-  $Gapp::Meta::Widget::Custom::Trait::WarningDialog::VERSION = '0.004';
+  $Gapp::Meta::Widget::Custom::Trait::WarningDialog::VERSION = '0.005';
 }
 sub register_implementation { 'GappX::Dialogs::Meta::Widget::Trait::WarningDialog' };
 

@@ -1,6 +1,6 @@
 package GappX::Dialogs::Meta::Widget::Trait::QuestionDialog;
 {
-  $GappX::Dialogs::Meta::Widget::Trait::QuestionDialog::VERSION = '0.004';
+  $GappX::Dialogs::Meta::Widget::Trait::QuestionDialog::VERSION = '0.005';
 }
 
 use Moose::Role;
@@ -11,6 +11,7 @@ with 'GappX::Dialogs::Meta::Widget::Trait::MessageDialog';
 around BUILDARGS => sub {
     my ( $orig, $class, %opts ) = @_;
     $opts{buttons} ||= [ qw(gtk-no no gtk-yes yes) ];
+    $opts{icon} ||= 'gtk-dialog-question';
     $opts{image} ||= Gapp::Image->new(
         stock => [ 'gtk-dialog-question', 'dialog' ],
         fill => 0,
@@ -21,7 +22,7 @@ around BUILDARGS => sub {
 
 package Gapp::Meta::Widget::Custom::Trait::QuestionDialog;
 {
-  $Gapp::Meta::Widget::Custom::Trait::QuestionDialog::VERSION = '0.004';
+  $Gapp::Meta::Widget::Custom::Trait::QuestionDialog::VERSION = '0.005';
 }
 sub register_implementation { 'GappX::Dialogs::Meta::Widget::Trait::QuestionDialog' };
 
